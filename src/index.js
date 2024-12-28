@@ -10,6 +10,7 @@ import bootstrap from "bootstrap";
 import { FakestoreProducts } from './components/TimeEvents/fakestore-products';
 import { DataBinding } from './components/data-binding/data-binding';
 import { DataBinding2 } from './components/data-binding/example-2';
+import { DataBinding3 } from './components/data-binding/example-3';
 // import { Login } from './login';
 
 
@@ -17,8 +18,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   {/*<FakestoreProducts/>*/}
-  <DataBinding2/>
   <DataBinding/>
+  <DataBinding2/>
+  <DataBinding3/>
     {/*<Login/>*/}
   </React.StrictMode>
 );
