@@ -11,6 +11,9 @@ import { FakestoreProducts } from './components/TimeEvents/fakestore-products';
 import { DataBinding } from './components/data-binding/data-binding';
 import { DataBinding2 } from './components/data-binding/example-2';
 import { DataBinding3 } from './components/data-binding/example-3';
+import { DataBinding4 } from './components/28-Nov-2024/data-binding1-Array';
+import { DataBinding5 } from './components/28-Nov-2024/data-binding2-Array';
+import { DataBinding6 } from './components/28-Nov-2024/data-binding3-Object';
 // import { Login } from './login';
 
 
@@ -18,9 +21,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   {/*<FakestoreProducts/>*/}
-  <DataBinding/>
+ {/* <DataBinding/>
   <DataBinding2/>
-  <DataBinding3/>
+  <DataBinding3/> */}
+  <DataBinding4/>
+  <DataBinding5/>
+  <DataBinding6/>
     {/*<Login/>*/}
   </React.StrictMode>
 );
