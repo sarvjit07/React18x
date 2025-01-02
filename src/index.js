@@ -14,6 +14,7 @@ import { DataBinding3 } from './components/data-binding/example-3';
 import { DataBinding4 } from './components/28-Nov-2024/data-binding1-Array';
 import { DataBinding5 } from './components/28-Nov-2024/data-binding2-Array';
 import { DataBinding6 } from './components/28-Nov-2024/data-binding3-Object';
+import { FakestoreIndex } from './components/01-01-2025/FakeStore/fakestore-index';
 // import { Login } from './login';
 
 
@@ -23,11 +24,13 @@ root.render(
   {/*<FakestoreProducts/>*/}
  {/* <DataBinding/>
   <DataBinding2/>
-  <DataBinding3/> */}
+  <DataBinding3/> }
   <DataBinding4/>
   <DataBinding5/>
-  <DataBinding6/>
+  <DataBinding6/> */}
     {/*<Login/>*/}
+
+    <FakestoreIndex /> 
   </React.StrictMode>
 );
 
